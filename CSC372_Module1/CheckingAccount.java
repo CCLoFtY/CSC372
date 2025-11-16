@@ -3,6 +3,11 @@ public class CheckingAccount extends BankAccount {
     // Interest rate attribute
     private double interestRate;
 
+    public CheckingAccount(String firstName, String lastName, int accountID, double interestRate) {
+        super(firstName, lastName, accountID);
+        this.interestRate = interestRate;
+    }
+
     public double getInterestRate() {
         return interestRate;
     }

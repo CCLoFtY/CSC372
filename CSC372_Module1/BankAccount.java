@@ -7,7 +7,10 @@ public class BankAccount {
     private double balance;
 
     // Constructor
-    public BankAccount() {
+    public BankAccount(String firstName, String lastName, int accountID) {
+        this.firstName = firstName;
+        this.lastName = lastName;
+        this.accountID = accountID;
         this.balance = 0.0;
     }
 
