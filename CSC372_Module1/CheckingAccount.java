@@ -1,6 +1,6 @@
 public class CheckingAccount extends BankAccount {
 
-    // Interest rate attribute (e.g., 0.02 for 2%)
+    // Interest rate attribute
     private double interestRate;
 
     public double getInterestRate() {
